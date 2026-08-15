@@ -1,0 +1,74 @@
+{
+  "HDFC Millennia Card": {
+    "base_rate": 0.01,
+    "category_multipliers": {
+      "subscription": 5,
+      "groceries": 2,
+      "electronics": 5,
+      "flights": 1,
+      "other": 1
+    },
+    "monthly_cap": {
+      "subscription": 1000.0,
+      "groceries": 1000.0,
+      "electronics": 1000.0,
+      "flights": 1000.0,
+      "other": 1000.0
+    },
+    "notes": "5% categories: Amazon, Flipkart, BookMyShow, Swiggy, and OTT subscriptions. Capped at ₹1000 cashback per statement cycle across 5% categories."
+  },
+  "SBI Cashback Card": {
+    "base_rate": 0.01,
+    "category_multipliers": {
+      "groceries": 5,
+      "subscription": 5,
+      "flights": 1,
+      "electronics": 1,
+      "other": 1
+    },
+    "monthly_cap": {
+      "groceries": 500.0,
+      "subscription": 500.0,
+      "flights": 500.0,
+      "electronics": 500.0,
+      "other": 500.0
+    },
+    "notes": "5% cashback uncapped on individual online categories in principle, but SBI applies an overall ₹5000 cashback cap per statement cycle across all online spend; modeled here per-category for simplicity."
+  },
+  "Axis Ace Card": {
+    "base_rate": 0.02,
+    "category_multipliers": {
+      "flights": 2.5,
+      "electronics": 2,
+      "groceries": 1,
+      "subscription": 1,
+      "other": 1
+    },
+    "monthly_cap": {
+      "flights": 500.0,
+      "electronics": 500.0,
+      "groceries": 500.0,
+      "subscription": 500.0,
+      "other": 500.0
+    },
+    "notes": "5% back on bill payments/travel via Axis, 4% on Swiggy/Zomato/Ola; monthly cashback cap ₹500 per category in this model."
+  },
+  "ICICI Amazon Pay Card": {
+    "base_rate": 0.01,
+    "category_multipliers": {
+      "electronics": 5,
+      "groceries": 5,
+      "subscription": 2,
+      "flights": 1,
+      "other": 1
+    },
+    "monthly_cap": {
+      "electronics": 1000.0,
+      "groceries": 1000.0,
+      "subscription": 1000.0,
+      "flights": 1000.0,
+      "other": 1000.0
+    },
+    "notes": "5% back for Prime members on Amazon purchases, 2% at Amazon Pay partner merchants, 1% elsewhere. Capped at ₹1000/month against 5% categories in this model."
+  }
+}
