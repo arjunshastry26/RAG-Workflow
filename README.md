@@ -163,10 +163,3 @@ You will receive SSE events containing `token`, `tool_call`, `tool_result`, and 
 - `deal-assistant/eval/run_eval.py` — harness that produced the benchmark above
 
 ---
-
-If you'd like, I can also:
-- Remove the API key from `deal-assistant/.env` now for security.
-- Add an architecture diagram file (SVG/PNG) or a separate docs/ folder.
-- Create an automated benchmarking script that runs N iterations and writes CSV results.
-
-(last updated: benchmark run results included)
